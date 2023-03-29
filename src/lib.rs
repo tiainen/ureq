@@ -352,7 +352,7 @@
 mod agent;
 mod body;
 mod chunked;
-mod error;
+pub mod error;
 mod header;
 mod middleware;
 mod pool;
